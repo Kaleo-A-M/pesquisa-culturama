@@ -17,40 +17,36 @@
 
         <form action="" method="get">
 
-            <!-- <fieldset>
+            <fieldset>
 
                 <legend>Dados Pessoais</legend>
-                <label for="userName">Nome</label>
-                <input type="text" name="userName" required>
+                <label for="name">Nome</label>
+                <input id="name" type="text" name="userName" required>
                 <br>
-                <label for="userAge">Idade</label>
-                <input type="number" name="userAge" min="12" max="100" required>
+                <label for="age">Idade</label>
+                <input id="age" type="number" name="userAge" min="12" max="100" required>
                 <br>
                 <label for="birthDate">Data de nasciemnto</label>
-                <input type="date" name="birthDate">
+                <input id="birthDate" type="date" name="userBirthDate">
                 <br>
-                <label for="userEmail">Email</label>
-                <input type="email" name="userEmail" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="userEmail" required>
                 <br>
-                <label for="userPhonerNumber">Telefone</label>
-                <input type="tel" name="userPhonerNumber" pattern="[0-9]{11}"
+                <label for="phoneNumber">Telefone</label>
+                <input id="phoneNumber" type="tel" name="userPhonerNumber" pattern="[0-9]{11}"
                     placeholder="DDD + numero sem espaços ou ifem">
                 <br>
-                <label for="userImage">Uploud de Foto</label>
-                <input type="file" accept="image/*" name="userImage">
+                <label for="image">Uploud de Foto</label>
+                <input id="image" type="file" accept="image/*" name="userImage">
                 <br>
-            </fieldset> -->
+            </fieldset>
 
-            <!-- <fieldset>
-                <!-- DADOS PERFIL 
-
+            <fieldset>
                 <legend>perfil</legend>
 
-                <!-- CAMPO GENERO 
                 <p>Gênero:</p>
                 <input type="radio" name="userGender" value="Feminino">
                 <label for="userGender">Feminino</label>
-
 
                 <input type="radio" name="userGender" value="Masculino">
                 <label for="userGender">Masculino</label>
@@ -58,8 +54,6 @@
                 <input type="radio" name="userGender" value="notInformed">
                 <label for="userGender">Prefiro não informar</label>
                 <br>
-
-                <!-- ESTADO CIVIL 
 
                 <label for="martialStatus">Estado cívil: </label>
                 <select name="maritalStatus">
@@ -69,8 +63,6 @@
                     <option value="divorciado">Divorciado</option>
                     <option value="casado">União estável</option>
                 </select>
-
-                <!-- CAMPO ESTADO 
 
                 <label for="userState">Estado de origem:</label>
                 <select name="userState">
@@ -104,12 +96,10 @@
                     <option value="Tocantins"> Tocantins </option>
                 </select>
 
-                <!-- CAMPO CIDADE 
-
                 <label for="userCity">Cidade:</label>
-                    <input type="text" name="userCity" required placeholder="Digite a sua cidade">
+                <input type="text" name="userCity" placeholder="Digite a sua cidade" required>
 
-            </fieldset> -->
+            </fieldset>
 
 
             <fieldset>
