@@ -45,18 +45,18 @@
                 <legend>perfil</legend>
 
                 <p>Gênero:</p>
-                <input type="radio" name="userGender" value="Feminino">
-                <label for="userGender">Feminino</label>
+                <input id="fem" type="radio" name="userGender" value="Feminino">
+                <label for="fem">Feminino</label>
 
-                <input type="radio" name="userGender" value="Masculino">
-                <label for="userGender">Masculino</label>
+                <input id="masc" type="radio" name="userGender" value="Masculino">
+                <label for="masc">Masculino</label>
 
-                <input type="radio" name="userGender" value="notInformed">
-                <label for="userGender">Prefiro não informar</label>
+                <input id="notInformed" type="radio" name="userGender" value="notInformed">
+                <label for="notInformed">Prefiro não informar</label>
                 <br>
 
-                <label for="martialStatus">Estado cívil: </label>
-                <select name="maritalStatus">
+                <label for="maritalStatus">Estado cívil: </label>
+                <select id="maritalStatus" name="userMaritalStatus">
                     <option value="notIformed">Selecione...</option>
                     <option value="casado">Casado</option>
                     <option value="solteiro">Solteiro</option>
@@ -64,8 +64,8 @@
                     <option value="casado">União estável</option>
                 </select>
 
-                <label for="userState">Estado de origem:</label>
-                <select name="userState">
+                <label for="state">Estado de origem:</label>
+                <select id="state" name="userState">
                     <option value="notInformed">Selecione...</option>
                     <option value="Acre"> Acre </option>
                     <option value="Alagoas"> Alagoas </option>
@@ -96,8 +96,8 @@
                     <option value="Tocantins"> Tocantins </option>
                 </select>
 
-                <label for="userCity">Cidade:</label>
-                <input type="text" name="userCity" placeholder="Digite a sua cidade" required>
+                <label for="city">Cidade:</label>
+                <input id="city" type="text" name="userCity" placeholder="Digite a sua cidade" required>
 
             </fieldset>
 
@@ -106,20 +106,20 @@
                 <legend>Hábitos</legend>
 
                 <p>Redes Sociais:</p>
-                <input type="checkbox" name="social" value="instagram">
-                <label for="social">Instagram</label>
+                <input id="instagram" type="checkbox" name="social" value="instagram">
+                <label for="instagram">Instagram</label>
                 <br>
 
-                <input type="checkbox" name="social" value="facebook">
-                <label for="social">Facebook</label>
+                <input id="facebook" type="checkbox" name="social" value="facebook">
+                <label for="facebook">Facebook</label>
                 <br>
 
-                <input type="checkbox" name="social" value="linkedin">
-                <label for="social">Linkedin</label>
+                <input id="linkedin" type="checkbox" name="social" value="linkedin">
+                <label for="linkedin">Linkedin</label>
                 <br>
 
-                <input type="checkbox" name="social" value="X">
-                <label for="social">X</label>
+                <input id="X" type="checkbox" name="social" value="X">
+                <label for="X">X</label>
                 <br>
             </fieldset>
             <button type="submit">
